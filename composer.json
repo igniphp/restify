@@ -1,0 +1,33 @@
+{
+  "name": "igniphp/resauce",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dawid <krac> Kraczkowski",
+      "email": "dawid.kraczkowski@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "igniphp/exception": ">=1.0.0",
+    "fzaninotto/faker": "^1.7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=5.7.0",
+    "mockery/mockery": ">=0.9.4",
+    "phpunit/php-code-coverage": ">=4.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Igni\\Rest\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IgniTest\\": "tests/"
+    }
+  }
+}
